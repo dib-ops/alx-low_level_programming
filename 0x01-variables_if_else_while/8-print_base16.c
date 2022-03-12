@@ -16,6 +16,8 @@ int main(void)
 	}
 for (ch = 'a'; ch <= 'f'; ch++)
 {
+	putchhar(ch);
+}
 putchar('\n');
 return (0);
 }
