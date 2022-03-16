@@ -5,13 +5,9 @@
  * followed by a new line.
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
-	{
-		_putchar('a - z');
-		_putchar('\n');
-
-		retun (0);
-	}
+	_putchar('a - z');
+	_putchar('\n');
+	return (0);
 }
