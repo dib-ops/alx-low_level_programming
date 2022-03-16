@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include <main.h>
 
 /**
@@ -6,8 +6,8 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	_putchar("_putchar");
+
 	return (0);
 }
