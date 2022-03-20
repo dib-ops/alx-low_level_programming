@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Apprendre à déboguer son code"
+git push
