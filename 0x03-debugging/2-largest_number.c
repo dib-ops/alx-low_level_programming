@@ -13,7 +13,7 @@ int largest_number(int a, int b, int c)
 	int largest;
 
 	printf("Enter three differents numbers:\n");
-	scanf("%d %d %d" a, b, c);
+	scanf("%d %d %d", &a, &b, &c);
 
 	if (a >= b && a >= c)
 	{
