@@ -1,6 +1,6 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
 
-int_isupper(int c);
+int _isupper(int c);
 
 #endif
