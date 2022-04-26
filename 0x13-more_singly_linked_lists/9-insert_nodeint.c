@@ -8,7 +8,7 @@
  *
  * Return: the address of the node
  */
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int i)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n)
 {
 	listint_t *new_node = NULL;
 	listint_t *previous_node = NULL;
@@ -20,7 +20,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int i)
 		free(new_node);
 		return (NULL);
 	}
-	new_node->i = i;
+	new_node->n = n;
 	new_node->next = NULL;
 	while (head != NULL)
 	{
