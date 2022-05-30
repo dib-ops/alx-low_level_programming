@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+int contains_non_numeric(char *str);
+int _atoi(char *s);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void move_int_end_to_beg(char *str, int size, char fill);
+char *multiply_strings(char *s1, char *s2, char *buff, unsigned int size_b);
+void *set_mem(void *p, unsigned int nmemb, unsigned int size, char ch);
+void *_calloc(unsigned int nmemb, unsigned int size);
+int _strlen(char *s);
 /**
  * main - entry point for program
  *
