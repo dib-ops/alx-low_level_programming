@@ -10,6 +10,9 @@ int _putchar(char c);
 void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
-int main(int argc, char *argv[]);
+void _puts(char *str);
+int _atoi(const char *s);
+void print_int(unsigned long int n);
+int main(int argc, char const *argv[]);
 
 #endif
